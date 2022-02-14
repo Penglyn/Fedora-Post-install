@@ -10,3 +10,5 @@ dynamic-wallpaper/install.sh
 echo "0 * * * * env PATH=$PATH DISPLAY=$DISPLAY DESKTOP_SESSION=$DESKTOP_SESSION DBUS_SESSION_BUS_ADDRESS=$DBUS_SESSION_BUS_ADDRESS /usr/bin/dwall -s forest" >> crontab
 crontab crontab
 rm crontab
+rm -rf dynamic-wallpaper
+sudo reboot
